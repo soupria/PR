@@ -5,7 +5,7 @@ module.exports = {
     './rules/node',
     './rules/style',
     './rules/variables'
-  ].map(require.resolve),
+  .map(require.resolve),
 //  env: {
     browser: true,
     node: true,
