@@ -5,7 +5,7 @@ module.exports = {
     './rules/node',
     './rules/style',
     './rules/variables'
-  .map(require.resolve),
+    ].map(require.resolve),
 //  env: {
     browser: true,
     node: true,
@@ -26,7 +26,7 @@ module.exports = {
     }, {
       property: '__defineSetter__',
       message: 'Please use Object.defineProperty instead.',
-    }],
+    },
     'no-var': 'off',
     'prefer-object-spread': 'off',
     strict: ['error', 'safe'],
